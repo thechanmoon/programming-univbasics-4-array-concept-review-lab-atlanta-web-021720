@@ -2,11 +2,12 @@ def find_element_index(array, value_to_find)
     # Add your solution here
     retVal = nil
     array.length.times |index| {
-      if(array[index] ===  value_to_find)
-      {
+      if array[index] ===  value_to_find then
+      
         retVal = index
         return retVal
-      }
+        
+      end
     }
     return retVal
 end
