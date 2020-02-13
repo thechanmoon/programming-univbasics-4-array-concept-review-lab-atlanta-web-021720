@@ -34,7 +34,7 @@ def find_min_value(array)
     index = 1
     while index < array.length 
     {
-      if(retVal < array[index]) then
+      if(retVal < array[index])
       
         retVal = array[index]
       
