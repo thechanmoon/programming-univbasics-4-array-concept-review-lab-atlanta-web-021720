@@ -18,10 +18,11 @@ def find_max_value(array)
     index = 1
     while index < array.length 
     {
-      if(retVal < array[index])
-      {
+      if(retVal < array[index]) then
+      
         retVal = array[index]
-      }
+        
+      end
       index += 1
     }
     return retVal
@@ -33,10 +34,12 @@ def find_min_value(array)
     index = 1
     while index < array.length 
     {
-      if(retVal < array[index])
-      {
+      if(retVal < array[index]) then
+      
         retVal = array[index]
-      }
+      
+      end
+      
       index += 1
     }
     return retVal
